@@ -45,7 +45,7 @@ public class CallHandlerAccessNumber extends BroadcastReceiver {
 			// We must handle that clean way cause when call just to
 			// get the row in account list expect this to reply correctly
 			if (!TextUtils.isEmpty(number) && 
-					!TextUtils.isEmpty(provider)) {
+					!TextUtils.isEmpty(accessNbr)) {
 				// Build pending intent
 				Intent i = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + accessNbr + ",," + number + "%23")); 
 				pendingIntent = PendingIntent.getBroadcast(context, 0, i, 0);
@@ -84,8 +84,10 @@ public class CallHandlerAccessNumber extends BroadcastReceiver {
 				results.putParcelable(Intent.EXTRA_SHORTCUT_ICON, bmp);
 			}
 
-			// DO *NOT* exclude from next tel: intent cause we use a http method
-			// results.putString(Intent.EXTRA_PHONE_NUMBER, number);
+			if (!TextUtils.isEmpty(number) && 
+					!TextUtils.isEmpty(accessNbr)) {
+				results.putString(Intent.EXTRA_PHONE_NUMBER, accessNbr+ ",," + number + "#");
+			}
 
 		} 
 	}
