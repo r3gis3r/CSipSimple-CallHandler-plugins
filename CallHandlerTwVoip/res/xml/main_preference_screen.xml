@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<EditTextPreference 
+		android:dialogTitle="@string/tw_user" 
+		android:title="@string/tw_user" 
+		android:key="tw_user" 
+		android:dialogMessage="@string/tw_user_summary"/>
+	<EditTextPreference android:key="tw_pwd" android:password="true" 
+		android:title="@string/tw_pwd"
+		android:dialogMessage="@string/tw_pwd_summary" />
+	<EditTextPreference 
+		android:title="@string/tw_from" android:key="tw_from" android:dialogMessage="@string/tw_from_summary"/>
+
+</PreferenceScreen>
