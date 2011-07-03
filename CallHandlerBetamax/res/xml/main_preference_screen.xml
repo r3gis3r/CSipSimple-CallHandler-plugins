@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	
+	
+	
+	<PreferenceCategory android:title="@string/account_info">
+		<EditTextPreference 
+			android:dialogTitle="@string/tw_user" 
+			android:title="@string/tw_user" 
+			android:key="tw_user" 
+			android:dialogMessage="@string/tw_user_summary" />
+		<EditTextPreference 
+			android:key="tw_pwd" 
+			android:title="@string/tw_pwd" 
+			android:dialogMessage="@string/tw_pwd_summary" 
+			android:password="true" android:dialogTitle="@string/tw_pwd"/>
+		
+		<ListPreference 
+			android:title="@string/tw_provider" 
+			android:key="tw_provider" 
+			android:dialogTitle="@string/tw_provider"
+			android:entries="@array/provider_entries"
+			android:entryValues="@array/provider_values"/>
+		
+		<EditTextPreference 
+			android:title="@string/tw_from" 
+			android:key="tw_from" 
+			android:dialogMessage="@string/tw_from_summary" 
+			android:dialogTitle="@string/tw_from"/>
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="@string/access_number_infos">
+		<EditTextPreference 
+			android:key="tt_access_nbr" 
+			android:title="@string/tt_access_nbr" 
+			android:dialogMessage="@string/tt_access_nbr_summary" 
+			android:dialogTitle="@string/tt_access_nbr"/>
+	</PreferenceCategory>
+
+</PreferenceScreen>

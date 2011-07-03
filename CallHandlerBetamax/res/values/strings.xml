@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Betamax call handler</string>
+    
+    <string name="tw_user">Username</string>
+    <string name="tw_user_summary">Username for 12voip account</string>
+    <string name="tw_pwd">Password</string>
+    <string name="tw_pwd_summary">Password for 12voip account</string>
+    <string name="tw_from">From</string>
+    <string name="tw_from_summary">Your own number where you want to get call back</string>
+    <string name="tw_provider">Provider</string>
+    <string name="tw_provider_summary">Your service provider</string>
+    
+    <string name="tt_access_nbr">Access number</string>
+    <string name="tt_access_nbr_summary">Access number for your provider in your country</string>
+    
+    <string name="account_info">Account infos</string>
+    <string name="access_number_infos">Access number infos</string>
+    <string name="web_callback">web callback</string>
+    <string name="access_nbr">access number</string>
+    
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="provider_values">
+		<item>12voip.com</item>
+		<item>actionvoip.com</item>
+		<item>budgetsip.com</item>
+		<item>calleasy.com</item>
+		<item>callingcredit.com</item>
+		<item>cheapvoip.com</item>
+		<item>dialnow.com</item>
+		<item>freecall.com</item>
+		<item>freevoipdeal.com</item>
+		<item>internetcalls.com</item>
+		<item>intervoip.com</item>
+		<item>jumblo.com</item>
+		<item>justvoip.com</item>
+		<item>lowratevoip.com</item>
+		<item>netappel.fr</item>
+		<item>nonoh.net</item>
+		<item>poivy.com</item>
+		<item>powervoip.com</item>
+		<item>rynga.com</item>
+		<item>sipdiscount.com</item>
+		<item>smartvoip.com</item>
+		<item>smsdiscount.com</item>
+		<item>smslisto.com</item>
+		<item>sparvoip.de</item>
+		<item>telbo.com</item>
+		<item>voipblast.com</item>
+		<item>voipbuster.com</item>
+		<item>voipbusterpro.com</item>
+		<item>voipcheap.co.uk</item>
+		<item>voipcheap.com</item>
+		<item>voipdiscount.com</item>
+		<item>voipgain.com</item>
+		<item>voipan.com</item>
+		<item>voipraider.com</item>
+		<item>voipstunt.com</item>
+		<item>voipwise.com</item>
+		<item>voipzoom.com</item>
+		<item>webcalldirect.com</item>
+	</string-array>
+
+	<string-array name="provider_entries">
+		<item>12voip</item>
+		<item>ActionVoip</item>
+		<item>BudgetSip</item>
+		<item>CallEasy</item>
+		<item>CallingCredit</item>
+		<item>CheapVoip</item>
+		<item>DialNow</item>
+		<item>FreeCall</item>
+		<item>FreeVoipDeal</item>
+		<item>InternetCalls</item>
+		<item>InterVoip</item>
+		<item>Jumblo</item>
+		<item>JustVoip</item>
+		<item>LowRateVoip</item>
+		<item>NetAppel</item>
+		<item>Nonoh</item>
+		<item>Poivy</item>
+		<item>PowerVoip</item>
+		<item>Rynga</item>
+		<item>SipDiscount</item>
+		<item>SmartVoip</item>
+		<item>SmsDiscount</item>
+		<item>SmsListo</item>
+		<item>Sparvoip</item>
+		<item>Telbo</item>
+		<item>Voipblast</item>
+		<item>VoipBuster</item>
+		<item>VoipBusterPro</item>
+		<item>VoipCheap.co.uk</item>
+		<item>VoipCheap</item>
+		<item>VoipDiscount</item>
+		<item>VoipGain</item>
+		<item>Voipan</item>
+		<item>VoipRaider</item>
+		<item>VoipStunt</item>
+		<item>VoipWise</item>
+		<item>VoipZoom</item>
+		<item>WebCallDirect</item>
+	</string-array>
+
+
+</resources>
