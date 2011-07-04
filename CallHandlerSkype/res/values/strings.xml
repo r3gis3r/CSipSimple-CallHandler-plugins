@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Skype CSipSimple plugin</string>
+    <string name="use_skype">Use Skype</string>
+</resources>
