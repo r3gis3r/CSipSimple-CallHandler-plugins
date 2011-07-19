@@ -41,7 +41,7 @@ public class CallHandler extends BroadcastReceiver {
 				Intent i = new Intent();
 				i.setComponent(new ComponentName(ri.activityInfo.packageName, "com.skype.raider.contactsync.ContactSkypeOutCallStartActivity"));
 				i.setData(Uri.fromParts("tel", number, null));
-				pendingIntent = PendingIntent.getActivity(context, 0, i, 0);
+				pendingIntent = PendingIntent.getActivity(context, 0, i, PendingIntent.FLAG_CANCEL_CURRENT);
 			}
 
 			// Build icon

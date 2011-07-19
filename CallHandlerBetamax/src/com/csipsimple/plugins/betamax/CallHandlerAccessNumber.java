@@ -48,7 +48,7 @@ public class CallHandlerAccessNumber extends BroadcastReceiver {
 					!TextUtils.isEmpty(accessNbr)) {
 				// Build pending intent
 				Intent i = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + accessNbr + ",," + number + "%23")); 
-				pendingIntent = PendingIntent.getActivity(context, 0, i, 0);
+				pendingIntent = PendingIntent.getActivity(context, 0, i, PendingIntent.FLAG_CANCEL_CURRENT);
 				
 			}
 

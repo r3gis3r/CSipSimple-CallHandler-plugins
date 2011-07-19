@@ -77,7 +77,7 @@ public class CallHandler extends BroadcastReceiver {
 				i.setClass(context, getClass());
 				i.putExtra(Intent.EXTRA_PHONE_NUMBER, number);
 
-				pendingIntent = PendingIntent.getBroadcast(context, 0, i, 0);
+				pendingIntent = PendingIntent.getBroadcast(context, 0, i, PendingIntent.FLAG_CANCEL_CURRENT);
 				// = PendingIntent.getActivity(context, 0, i, 0);
 			}
 

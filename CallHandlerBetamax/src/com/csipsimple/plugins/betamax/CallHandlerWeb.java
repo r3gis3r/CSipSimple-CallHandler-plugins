@@ -71,7 +71,7 @@ public class CallHandlerWeb extends BroadcastReceiver {
 				Intent i = new Intent(ACTION_DO_WEB_CALL);
 				i.setClass(context, getClass());
 				i.putExtra(Intent.EXTRA_PHONE_NUMBER, number);
-				pendingIntent = PendingIntent.getBroadcast(context, 0, i, 0);
+				pendingIntent = PendingIntent.getBroadcast(context, 0, i, PendingIntent.FLAG_CANCEL_CURRENT);
 				
 			}
 
