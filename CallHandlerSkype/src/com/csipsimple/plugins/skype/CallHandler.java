@@ -14,7 +14,6 @@ package com.csipsimple.plugins.skype;
 
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
-import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ResolveInfo;
@@ -39,7 +38,8 @@ public class CallHandler extends BroadcastReceiver {
 			if (!TextUtils.isEmpty(number) && ri != null) {
 				// Build pending intent
 				Intent i = new Intent();
-				i.setComponent(new ComponentName(ri.activityInfo.packageName, "com.skype.raider.contactsync.ContactSkypeOutCallStartActivity"));
+				i.setAction("android.intent.action.CALL_PRIVILEGED");
+				i.setPackage("com.skype.raider");
 				i.setData(Uri.fromParts("tel", number, null));
 				pendingIntent = PendingIntent.getActivity(context, 0, i, PendingIntent.FLAG_CANCEL_CURRENT);
 			}
